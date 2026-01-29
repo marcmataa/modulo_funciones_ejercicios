@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Saludo Personalizado</h2>
+    <form id="userName">
+      <input
+        id="name"
+        name="nameSaludo"
+        type="text"
+        placeholder="Escribe tu nombre"
+      />
+      <input type="submit" value="Enviar" />
+    </form>
+    <p id="saludo"></p>
+    <h2>Interruptor</h2>
+    <button id="btnBody">Cambia de Fondo</button>
+    <h2>Conversor de Celsius a Fahrenheit</h2>
+    <form id="grados">
+      <input
+        type="number"
+        name="temp"
+        placeholder="Escribe tus grados Celsius"
+      />
+      <input type="submit" value="Convertir a Fahrenheit" />
+      <p id="fahren"></p>
+    </form>
+    <h2>Generar Párrafos</h2>
+    <button id="btnP">Generar un Párrafo</button>
+    <section id="parrafos"></section>
+    <h2>Contador Simple</h2>
+    <button id="up">Incrementar</button>
+    <button id="down">Decrementar</button>
+    <p id="finalCont"></p>
+    <script type="module" src="assets/js/modulo.js"></script>
+  </body>
+</html>
